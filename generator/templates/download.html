@@ -1,0 +1,27 @@
+{% extends 'base/layout.html' %}
+{% block body %}
+{% include 'base/navbar.html' %}
+{% include 'partials/form.html' %}
+
+<section id="qr_download" class="container center">
+    <div class="row container">
+        <div class="container">
+            <div class="card">
+                <div class="card-image">
+                    <img id="qr_image" src="{{ url_for('static', filename='temporary/qrcode.png') }}">
+                    <a href="{{url_for('download_qr')}}" id="qr_download_btn" class="btn waves-effect">
+                        <p class=" btn-floating btn-large">
+                            <i class="material-icons">download</i>
+                        </p>
+                    </a>
+                </div>
+                <div class="card-content">
+                    <p>Click on the above qrcode or download button to download it</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include 'base/footer.html' %}
+{% endblock body %}

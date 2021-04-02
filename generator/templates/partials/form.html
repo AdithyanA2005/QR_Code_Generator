@@ -1,0 +1,12 @@
+<section id="qr_generator" class="container center">
+    <form class="row" action="/create_qrcode" method="post">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">qr_code_2</i>
+            <input name="qr_link" type="text" id="autocomplete-input" class="autocomplete">
+            <label for="autocomplete-input">Enter A Link</label>
+        </div>
+        <button id="qr_submit_btn" class="btn waves-effect waves-light" type="submit" name="generate_submit">
+            <i class="material-icons center">send</i>
+        </button>
+    </form>
+</section>

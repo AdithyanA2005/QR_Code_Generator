@@ -1,0 +1,15 @@
+{% extends 'base/layout.html' %}
+{% block body %}
+{% include 'base/navbar.html' %}
+{% include 'partials/form.html' %}
+
+{% if not show_result %}
+{% include 'partials/demo.html' %}
+{% endif %}
+
+{% if show_result=="Error" %}
+{% include 'partials/generate_error.html' %}
+{% endif %}
+
+{% include 'base/footer.html' %}
+{% endblock body %}
