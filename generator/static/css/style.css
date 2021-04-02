@@ -1,0 +1,125 @@
+#nav-wrapper {
+    background: #9fa4c4;
+}
+
+#qr_generator {
+    padding: 0.5rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: #9fa4c4;
+}
+
+#qr_submit_btn {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background: #abdf75;
+}
+
+#footer {
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: #9fa4c4;
+    border-radius: 20px;
+    margin-top: 10rem;
+    color: #307473;
+}
+
+
+
+
+
+#generate_error {
+    color: #abdf75;
+    margin-top: 3rem;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: #9fa4c4;
+    border-radius: 20px;
+}
+
+#generate_error :is(h2, h4, h5) {
+    color: #9fa4c4;
+    font-weight: 500;
+}
+
+#generate_error ul {
+    padding-left: 4rem !important;
+}
+
+#generate_error ul:not(.browser-default)>li {
+    list-style-type: disc;
+}
+
+
+
+
+#qr_demo {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    border-radius: 20px;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: #9fa4c4;
+}
+
+#qr_demo blockquote {
+    border-left-color: #abdf75;
+}
+
+#qr_demo blockquote :is(h2, h3, h5) {
+    color: #9fa4c4;
+    font-weight: 500;
+}
+
+#qr_demo blockquote h6 {
+    color: #abdf75;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+
+
+
+
+#qr_download {
+    color: #9fa4c4;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    border-radius: 20px;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: #9fa4c4;
+}
+
+#qr_image {
+    border-style: groove;
+    border-width: 0.2rem;
+    border-color: #3b1f2b;
+}
+
+#qr_download_btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#qr_download_btn p {
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+    background: #abdf75;
+}
+
+#qr_download_btn p i {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
