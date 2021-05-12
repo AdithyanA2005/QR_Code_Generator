@@ -3,6 +3,9 @@
 #### Hello I am Adithyan A
 ##### This is a QR code generation web app made using python flask
 
+> ![Screenshot](https://github.com/AdithyanA2005/QR_Code_Generator/blob/main/github/Snapshot.png)
+
+
 #### HOW TO USE
 
 > Clone the repository
@@ -22,15 +25,12 @@
 
 ---
 
-> 
-> In the Browser Url TYPE 
-> 
-> ```bash
-> localhost:3000
-> ```
+>To Visit In Browser Type
 >
-> OR
-> 
+> ```bash
+>localhost:3000
+>```
+>
 > ```bash
 > 127.0.0.1:3000
 > ```
