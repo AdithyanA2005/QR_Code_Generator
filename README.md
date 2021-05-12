@@ -1,9 +1,9 @@
 # QR_Code_Generator
 
-#### Hello I am Adithyan A
-##### This is a QR code generation web app made using python flask
-
-> ![Screenshot](https://github.com/AdithyanA2005/QR_Code_Generator/blob/main/github/Snapshot.png)
+> #### Hello I am Adithyan A
+> ##### This is a QR code generation web app made using python flask
+> 
+> ![Screenshot](https://github.com/AdithyanA2005/QR_Code_Generator/blob/main/github/Screenshot.png)
 
 
 #### HOW TO USE
