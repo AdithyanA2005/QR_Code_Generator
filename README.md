@@ -6,24 +6,31 @@
 #### HOW TO USE
 
 > Clone the repository
-> ``` bash
+> ```bash
 > git clone https://github.com/AdithyanA2005/QR_Code_Generator.git
 > ```
 
 > Install Dependencies
-> ``` bash
+> ```bash
 > pip install -r requirements.txt
 > ```
 
 > Start The server
-> ``` bash
+> ```bash
 > python run.py
 > ```
 
 ---
 
-> ```
-> In the Browser Url 
 > 
-> TYPE: localhost:3000 or 127.0.0.1:3000
+> In the Browser Url TYPE 
+> 
+> ```bash
+> localhost:3000
+> ```
+>
+> OR
+> 
+> ```bash
+> 127.0.0.1:3000
 > ```
